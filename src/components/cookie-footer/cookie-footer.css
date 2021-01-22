@@ -1,0 +1,40 @@
+.cookie-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  background-color: #424851;
+  color: #fff;
+  padding: 1.25em;
+  z-index: 9999;
+}
+
+.cookie-footer .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.cookie-footer .content .title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cookie-footer .content a {
+  color: #F29EAC;
+}
+
+.cookie-footer .content button {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.8rem;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #007bc7;
+  border-radius: 4px;
+  cursor: pointer;
+  line-height: 1;
+  white-space: nowrap;
+}
